@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/cssReset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact Jamie</title>
 </head>
 
 <body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light">
+            <h1 class="navbar-nav mr-auto navTitle">Jamie O'Neill, Pharm.D.</h1>
 
-    <header>
-            <div>
-            <h1>Jamie O'Neill, Pharm.D.</h1>
+            <ul class="navbar-nav navOptions">
+                <li class="nav-item active">
+                    <a class="nav-link borderRight" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link borderRight" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
         
-            <div>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </div>
-            </div>  
-        </header>
+        <div class="jumbotron mainSection">
+            <h1>Contact</h1>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn teal">Submit</button>
+            </form>
+        </div>
+    </div>  
 
-   <section>
+   <!-- <section>
 
         <h2>Contact</h2>
         <hr>
@@ -32,7 +59,8 @@
         <input>
         <button>Submit</button>
     
-   </section>
+   </section> -->
+
 
 <footer>Copyright</footer>
 </body>
