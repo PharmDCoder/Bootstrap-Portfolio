@@ -71,6 +71,20 @@ p {
     margin: 10px;
 }
 
+.relativePosition {
+    position: relative;
+}
+
+.absolutePosition {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    padding: 5px 0px 5px 0px; 
+    width: 75%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
 /*button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -158,19 +172,7 @@ td {
     margin: 10px 30px;
 }
 
-.relativePosition {
-    position: relative;
-    width: 300px;
-}
 
-.absolutePosition {
-    position: absolute;
-    top: 2px;
-    padding: 5px 0px 5px 0px; 
-    width: 100%;
-    color: #ffffff;
-    background-color: #4aaaa5;
-}
 
 .largeBox {
     padding: 100px 700px 10px 10px;
